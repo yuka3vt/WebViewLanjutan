@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         WebAppInterface webAppInterface = new WebAppInterface(this,MainActivity.this);
         _webView1.addJavascriptInterface(webAppInterface,"Android");
 
-        String url = "https://yuka3vt.github.io/202102325";
+        String url = "https://yukawardana-202102325.000webhostapp.com/";
         _webView1.loadUrl(url);
     }
 }
